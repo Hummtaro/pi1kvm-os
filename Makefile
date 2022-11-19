@@ -8,8 +8,7 @@ STAGES ?= __init__ os pikvm-repo watchdog ro no-audit pikvm __cleanup__
 HOSTNAME ?= pikvm
 LOCALE ?= en_US
 TIMEZONE ?= Europe/Moscow
-#REPO_URL ?= http://mirror.yandex.ru/archlinux-arm
-REPO_URL ?= http://de3.mirror.archlinuxarm.org
+REPO_URL ?= http://archive.dskyio.com/archlinuxarm_2022-01-08
 BUILD_OPTS ?=
 
 ROOT_PASSWD ?= root
@@ -76,7 +75,7 @@ os: $(_BUILDER_DIR)
 
 $(_BUILDER_DIR):
 	mkdir -p `dirname $(_BUILDER_DIR)`
-	git clone --depth=1 https://github.com/mdevaev/pi-builder $(_BUILDER_DIR)
+	git clone --depth=1 https://github.com/Hummtaro/pi1kvm-builder $(_BUILDER_DIR)
 
 
 update: $(_BUILDER_DIR)
