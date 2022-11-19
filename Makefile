@@ -1,7 +1,7 @@
 -include config.mk
 
-BOARD ?= rpi4
-PLATFORM ?= v2-hdmi
+BOARD ?= rpi
+PLATFORM ?= v0-hdmi
 SUFFIX ?=
 STAGES ?= __init__ os pikvm-repo watchdog ro no-audit pikvm __cleanup__
 
