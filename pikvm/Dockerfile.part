@@ -33,9 +33,10 @@ RUN pkg-install --assume-installed tessdata \
 	pastebinit \
 	dhclient \
 	tmate \
-	vi-vim-symlink \
 	nano-syntax-highlighting \
 	hostapd
+
+RUN ln -S /usr/bin/vim /usr/bin/vi
 
 RUN systemctl enable kvmd \
 	&& systemctl enable kvmd-nginx \
