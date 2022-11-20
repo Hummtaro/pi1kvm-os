@@ -1,14 +1,9 @@
-# PiKVM OS Images
-[![os](https://github.com/pikvm/os/actions/workflows/v3-hdmi-rpi4.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v3-hdmi-rpi4.yml)
+# PiKVM OS Images for Raspberry Pi 1 and ZeroW
 
-[![os](https://github.com/pikvm/os/actions/workflows/v3-hdmi-rpi4-box.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v3-hdmi-rpi4-box.yml)
+These are based on an outdated and unsupported version of ArchLinuxArm.
+They may have bugs and vulnerabilities.
 
-[![os](https://github.com/pikvm/os/actions/workflows/v2-hdmi-rpi4.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v2-hdmi-rpi4.yml)
+USE AT YOUR OWN RISK
 
-[![os](https://github.com/pikvm/os/actions/workflows/v2-hdmiusb-rpi4.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v2-hdmiusb-rpi4.yml)
 
-[![os](https://github.com/pikvm/os/actions/workflows/v2-hdmi-zerow.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v2-hdmi-zerow.yml)
-
-[![os](https://github.com/pikvm/os/actions/workflows/v2-hdmi-zero2w.yml/badge.svg)](https://github.com/pikvm/os/actions/workflows/v2-hdmi-zero2w.yml)
-
-The built images are published here: https://files.pikvm.org
+The built images are published here: https://github.com/Hummtaro/pi1kvm-os/releases
